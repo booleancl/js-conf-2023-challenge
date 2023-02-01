@@ -7,9 +7,9 @@ var presenters_sample = [
 
 function filterByType() {
   /*
-    Usando callbacks de los Array
-    Nos vamos a centrar en los callbacks
-
+    Los arreglos en javascript son objetos que tienen métodos como .filter, .forEach, .map, etc. 
+    Estos métodos reciben callbacks como parámetros.
+    
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods
 
     DESAFÍO 1: Utilizando el método .filter() de los Arrays calcula los items que contengan la propiedad "type" con el valor "national" del array "presenters_sample"
