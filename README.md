@@ -37,3 +37,16 @@ Si ahora hacemos click en `Autograding` veremos los siguiente:
 
 ![](https://res.cloudinary.com/boolean-spa/image/upload/v1675346923/js-conf-2023/autograding-output_mi5bgx.png)
 
+## Resolviendo el desafío
+
+1. Clona este repo a tu entorno local e instala las dependencias
+```bash
+$ git clone git@github.com:booleancl/js-conf-2023-challenge-<tu-nombre-de-usuario>.git
+$ cd js-conf-2023-challenge-<tu-nombre-de-usuario>
+$ npm install
+```
+2. Ejecuta los test y resuelve los ejercicios en orden 
+
+```bash
+$ npm test
+```
