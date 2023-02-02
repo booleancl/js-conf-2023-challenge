@@ -26,14 +26,8 @@
 */
 
 function map(array, callback){
-  var arrayLength = array.length;
-	var newArray = [];
+  // Tu código acá:
 
-	for (var i = 0; i < arrayLength; i++) {
-    // Tu código acá:
-    newArray.push(callback(array[i], i, array))
-  }
-  return newArray;
 }
 
 module.exports = {
