@@ -1,4 +1,4 @@
-var presenters_sample = [
+var speakers_sample = [
   { id: 1,  name: 'Gonzalo Fernandez', type: 'national', country: 'Chile', topics: ['engineering', 'technologies', 'programming-languages'] },
   { id: 2,  name: 'Miguel Angel Durán', type: 'international', country: 'Spain', topics: ['javascript', 'programming-languages'] },
   { id: 3,  name: 'Charlie Gerard', type: 'international', country: 'USA', topics: ['engineering', 'technologies', 'telecommunications'] },
@@ -12,12 +12,12 @@ function filterByType() {
     
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods
 
-    DESAFÍO 1: Utilizando el método .filter() de los Arrays calcula los items que contengan la propiedad "type" con el valor "national" del array "presenters_sample"
+    DESAFÍO 1: Utilizando el método .filter() de los Arrays calcula los items que contengan la propiedad "type" con el valor "national" del array "speakers_sample"
   */
 
-  var nationalPresenters = [] //<-- ACÁ TU SOLUCIÓN: reemplaza el valor "[]" por la solución
+  var national_speakers = [] //<-- ACÁ TU SOLUCIÓN: reemplaza el valor "[]" por la solución
 
-  return nationalPresenters
+  return national_speakers
 }
 
 /*
@@ -28,8 +28,8 @@ function filterByType() {
 */
 function getLists() {
   return {
-    presenters_without_topics: [],
-    presenters_with_javascript_topics: [],
+    speakers_without_topics: [],
+    speakers_with_javascript_topics: [],
   }
 }
 
