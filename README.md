@@ -7,5 +7,33 @@ puedes conocer más acerca de ella acá:
 [Ir a la documentación](https://booleancl.github.io/javascript-fullstack/docs/01-fundamentos/05-funciones.html#callbacks)
 
 
-A continuación las intrucciones:
+## Intrucciones
+
+Lo primero que debes hacer es observar la sección "Actions" de la barra de Navegación del proyecto.
+Una vez ahí verás algo como en la siguiente imagen:
+
+![](https://res.cloudinary.com/boolean-spa/image/upload/v1675346289/js-conf-2023/repository-homepage_s2esyj.png)
+
+Una vez hagas click verás una serie de ejecuciones fallidas. 
+En esta oportunidad  nos centraremos en la última ejecución relacionada a una rama llamada `feedback`.
+
+![](https://res.cloudinary.com/boolean-spa/image/upload/v1675346923/js-conf-2023/actions-classroom-feedback_mzj7hz.png)
+
+
+Esta rama está relacionada a través de un Pull Request desde la rama `main`, así que cuando resuelvas el desafío, procura hacerlo en la rama `main`.
+
+Si hacemos click sobre la ejecución marcada, deberíamos ver algo como lo siguiente:
+
+![](https://res.cloudinary.com/boolean-spa/image/upload/v1675346923/js-conf-2023/autograding-job_egq7qa.png)
+
+Puedes notar que marcamos 2 cosas.
+Lo primero es la ejecución del `Autograding` que son las pruebas automatizadas que revisarán el resultado del desafío.
+por defecto vendrá fallando y será tu misión dejarlas OK.
+
+Lo segundo son los puntos obtenidos por el desafío. Para dar el desafío por pasado hay que obtener 100 puntos.
+Eventualmente si no logras resolver todos los desafíos podrías tener menos puntaje que eso.
+
+Si ahora hacemos click en `Autograding` veremos los siguiente:
+
+![](https://res.cloudinary.com/boolean-spa/image/upload/v1675346923/js-conf-2023/autograding-output_mi5bgx.png)
 
