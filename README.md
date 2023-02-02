@@ -45,8 +45,19 @@ $ git clone git@github.com:booleancl/js-conf-2023-challenge-<tu-nombre-de-usuari
 $ cd js-conf-2023-challenge-<tu-nombre-de-usuario>
 $ npm install
 ```
-2. Ejecuta los test y resuelve los ejercicios en orden 
+2. Ejecuta los test y resuelve los ejercicios en orden.
 
 ```bash
 $ npm test
 ```
+
+Debes entrar y trabajar los archivos que están dentro de la carpeta `array_functions`. En cada ejercicio encontrarás lo que se solicita en por cada método.
+
+
+3. Al tener los tests corriendo, solo debes guardar las modificaciones y automáticamente tendrás feedback del resultado de tu código.
+
+
+4. Al tener las 3 pruebas pasando, pushea tu código y ve correr las pruebas en la sección **actions** de tu repositorio.
+
+Si tienes dudas no dudes en preguntar en nuestra comunidad de estudio en [slack](https://join.slack.com/t/booleancl/shared_invite/zt-c3etoeaa-BFD0UKcDtDZLZ1CqhTzsCw)
+
